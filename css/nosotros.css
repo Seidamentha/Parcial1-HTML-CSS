@@ -68,11 +68,12 @@ nav ul li a:hover{
   align-items: center;
   min-height: 700px;
   width: 100%;
-  background-image: url("https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80");
+  background-image: url("https://cdn.foodandwineespanol.com/2022/05/cafeteri%CC%81as-en-la-condesa.jpg");
 }
 
 #section-main-image h1 {
-  color: rgba(255, 255, 255, .7);
+  color: rgb(255, 255, 255);
+  padding: 10px;
   font-size: 900;
   margin: 0;
 }

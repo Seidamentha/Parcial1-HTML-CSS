@@ -62,43 +62,48 @@ nav ul li a:hover{
 
 /* SECTION MAIN IMAGE */
 
-#section-main-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 700px;
-  width: 100%;
-  background-image: url("https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80");
+.tablas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
-#section-main-image h1 {
-  color: rgba(255, 255, 255, .7);
-  font-size: 900;
-  margin: 0;
+section > table{
+    margin: 15px;
+    padding: 15px;
+    width: 400px;
+    height: 200px;
 }
 
-/* SECTION COFFEE */
-
-#section-coffee {
-  background-color: #eeeeee;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 40px;
+tr:first-child{
+    background-color: rgba(215, 212, 212, 0.884);
 }
 
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+tr:nth-child(3){
+    background-color: rgba(215, 212, 212, 0.884);
 }
 
-.product {
-  padding: 0 15px;
+th{
+    color: white;
+    background-color: rgba(155, 5, 5, 0.937);
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
 }
 
-.product img {
-  width: 30px;
+td{
+    display: inline-flex;
+    justify-content: space-between;
 }
+
+tr{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* FOOTER CONTACT */
 
